@@ -1,0 +1,8 @@
+-keep class com.masih.callrecorder.data.** { *; }
+-keep class android.media.MediaRecorder { *; }
+-keep class android.media.MediaPlayer { *; }
+-keepattributes *Annotation*
+-keep public class * extends android.app.Activity
+-keep public class * extends android.app.Application
+-keep public class * extends android.app.Service
+-keep public class * extends android.content.BroadcastReceiver
